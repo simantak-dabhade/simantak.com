@@ -1,3 +1,5 @@
+"use client";
+
 export default function Home() {
   return (
     <main className="px-6 py-8 max-w-[600px] mx-auto">
@@ -55,8 +57,10 @@ export default function Home() {
             href="https://inferenceLake.com"
             rel="noreferrer noopener"
             target="_blank"
-            className="inline-flex items-center gap-1 text-(--primary-text) underline decoration-1 hover:decoration-2 transition-all"
-            style={{ filter: "blur(0px)", opacity: 1 }}
+            className="inline-flex items-center gap-1 text-(--primary-text) underline"
+            style={{ filter: "blur(0px)", opacity: 1, textDecorationThickness: "1px", transition: "text-decoration-thickness 0.2s ease" }}
+            onMouseEnter={(e) => e.target.style.textDecorationThickness = "2px"}
+            onMouseLeave={(e) => e.target.style.textDecorationThickness = "1px"}
           >
             inferenceLake
           </a>
@@ -65,8 +69,10 @@ export default function Home() {
             href="https://brwne.dev"
             rel="noreferrer noopener"
             target="_blank"
-            className="inline-flex items-center gap-1 text-(--primary-text) underline decoration-1 hover:decoration-2 transition-all"
-            style={{ filter: "blur(0px)", opacity: 1 }}
+            className="inline-flex items-center gap-1 text-(--primary-text) underline"
+            style={{ filter: "blur(0px)", opacity: 1, textDecorationThickness: "1px", transition: "text-decoration-thickness 0.2s ease" }}
+            onMouseEnter={(e) => e.target.style.textDecorationThickness = "2px"}
+            onMouseLeave={(e) => e.target.style.textDecorationThickness = "1px"}
           >
             brwne
           </a>
@@ -86,43 +92,10 @@ export default function Home() {
           </span>
           <br />
           <br />
-          <div className="flex">
-            <span>
-              <span
-                style={{ filter: "blur(0px)", opacity: 1, transform: "none" }}
-              >
-                ~{" "}
-              </span>
-              <span
-                style={{ filter: "blur(0px)", opacity: 1, transform: "none" }}
-              >
-                {" "}
-                see
-              </span>
-              <span
-                style={{ filter: "blur(0px)", opacity: 1, transform: "none" }}
-              >
-                {" "}
-                you
-              </span>
-              <span
-                style={{ filter: "blur(0px)", opacity: 1, transform: "none" }}
-              >
-                {" "}
-                soon!
-              </span>
+          <div>
+            <span style={{ filter: "blur(0px)", opacity: 1 }}>
+              ~ see you soon!
             </span>
-            <div
-              className="inline-block ml-4 align-middle"
-              style={{ opacity: 1, filter: "blur(0px)" }}
-            >
-              <div className="cursor-pointer" aria-label="Toggle theme">
-                <div
-                  className="size-3 -ml-2 mt-1 rounded-full"
-                  style={{ backgroundColor: "black" }}
-                ></div>
-              </div>
-            </div>
           </div>
           <br />
         </div>
