@@ -66,8 +66,8 @@ export default function Home() {
             target="_blank"
             className="inline-flex items-center gap-1 text-(--primary-text) underline"
             style={{ filter: "blur(0px)", opacity: 1, textDecorationThickness: "1px", transition: "text-decoration-thickness 0.2s ease" }}
-            onMouseEnter={(e) => e.target.style.textDecorationThickness = "2px"}
-            onMouseLeave={(e) => e.target.style.textDecorationThickness = "1px"}
+            onMouseEnter={(e) => (e.target as HTMLElement).style.textDecorationThickness = "2px"}
+            onMouseLeave={(e) => (e.target as HTMLElement).style.textDecorationThickness = "1px"}
           >
             TinyFish
           </a>
@@ -78,8 +78,8 @@ export default function Home() {
             target="_blank"
             className="inline-flex items-center gap-1 text-(--primary-text) underline"
             style={{ filter: "blur(0px)", opacity: 1, textDecorationThickness: "1px", transition: "text-decoration-thickness 0.2s ease" }}
-            onMouseEnter={(e) => e.target.style.textDecorationThickness = "2px"}
-            onMouseLeave={(e) => e.target.style.textDecorationThickness = "1px"}
+            onMouseEnter={(e) => (e.target as HTMLElement).style.textDecorationThickness = "2px"}
+            onMouseLeave={(e) => (e.target as HTMLElement).style.textDecorationThickness = "1px"}
           >
             Sangria
           </a>
