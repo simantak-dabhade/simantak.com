@@ -32,7 +32,7 @@ export default function Home() {
           <br />
           <br />
           <span style={{ filter: "blur(0px)", opacity: 1 }}>
-            Currently studying computer science at the{" "}
+            Studied computer science at the{" "}
           </span>
           <span
             className="text-(--primary-text)"
@@ -40,21 +40,28 @@ export default function Home() {
           >
             National University of Singapore
           </span>
-          <span style={{ filter: "blur(0px)", opacity: 1 }}>. Moving to </span>
+          <span style={{ filter: "blur(0px)", opacity: 1 }}> and </span>
           <span
             className="text-(--primary-text)"
             style={{ filter: "blur(0px)", opacity: 1 }}
           >
-            Silicon Valley Jan &apos;26
+            Stanford University
+          </span>
+          <span style={{ filter: "blur(0px)", opacity: 1 }}>. Now based in </span>
+          <span
+            className="text-(--primary-text)"
+            style={{ filter: "blur(0px)", opacity: 1 }}
+          >
+            Menlo Park, California
           </span>
           <span style={{ filter: "blur(0px)", opacity: 1 }}>.</span>
           <br />
           <br />
           <span style={{ filter: "blur(0px)", opacity: 1 }}>
-            Currently working on{" "}
+            Working on growth at{" "}
           </span>
           <a
-            href="https://inferenceLake.com"
+            href="https://www.tinyfish.ai/"
             rel="noreferrer noopener"
             target="_blank"
             className="inline-flex items-center gap-1 text-(--primary-text) underline"
@@ -62,11 +69,11 @@ export default function Home() {
             onMouseEnter={(e) => e.target.style.textDecorationThickness = "2px"}
             onMouseLeave={(e) => e.target.style.textDecorationThickness = "1px"}
           >
-            inferenceLake
+            TinyFish
           </a>
-          <span style={{ filter: "blur(0px)", opacity: 1 }}> and </span>
+          <span style={{ filter: "blur(0px)", opacity: 1 }}> and building </span>
           <a
-            href="https://brwne.dev"
+            href="https://getsangria.com"
             rel="noreferrer noopener"
             target="_blank"
             className="inline-flex items-center gap-1 text-(--primary-text) underline"
@@ -74,8 +81,11 @@ export default function Home() {
             onMouseEnter={(e) => e.target.style.textDecorationThickness = "2px"}
             onMouseLeave={(e) => e.target.style.textDecorationThickness = "1px"}
           >
-            brwne
+            Sangria
           </a>
+          <span style={{ filter: "blur(0px)", opacity: 1 }}>
+            {" "}with some awesome friends.
+          </span>
           <br />
           <br />
           <span style={{ filter: "blur(0px)", opacity: 1 }}>
@@ -121,7 +131,7 @@ export default function Home() {
             </a>
             <div className="h-3 w-[0.1px] bg-(--divider)"></div>
             <a
-              href="https://x.com/Simantak242172"
+              href="https://x.com/not_simantak"
               rel="noreferrer noopener"
               target="_blank"
               className="inline-flex items-center gap-1 font-medium text-xs transition-colors hover:text-(--primary-text)"
@@ -152,7 +162,7 @@ export default function Home() {
           </div>
           <div>
             <a
-              href="https://x.com/Simantak242172"
+              href="https://x.com/not_simantak"
               rel="noreferrer noopener"
               target="_blank"
               className="inline-flex items-center gap-1 font-medium text-xs transition-colors hover:text-(--primary-text) hover:underline text-(--primary-text)"
